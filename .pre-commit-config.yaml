@@ -9,3 +9,7 @@ repos:
     rev: 22.10.0
     hooks:
     -   id: black
+-   repo: https://github.com/ssciwr/clang-format-hook.git
+    rev: v12.0.1  # Use the sha / tag you want to point at
+    hooks:
+    -   id: clang-format
