@@ -13,3 +13,8 @@ repos:
     rev: v12.0.1  # Use the sha / tag you want to point at
     hooks:
     -   id: clang-format
+
+-   repo: https://github.com/cpplint/cpplint.git
+    rev: 1.6.1
+    hooks:
+    -   id: cpplint

@@ -1,6 +1,6 @@
-#include <iostream>
+#include "src/hello_world.h"
 
-using namespace std;
+#include <iostream>
 
 int main() {
   std::cout << "hello world!" << std::endl;
